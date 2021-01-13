@@ -6,6 +6,7 @@ if len(sys.argv) == 1:
 	exit()
 
 # include words with every letter from include, exlcude words with any letter in exclude
+# to leave include empty, type ''
 include = sys.argv[1]
 
 if len(sys.argv) > 2:
